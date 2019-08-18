@@ -29,6 +29,7 @@ public class kakao_restapi {
 		postParams.add(new BasicNameValuePair("client_id", "00cfc178dd02cc737a4f1fe8084ce894"));
 
 		postParams.add(new BasicNameValuePair("redirect_uri", "http://localhost/web/oauth"));
+		//postParams.add(new BasicNameValuePair("redirect_uri", "http://localhost:8080/web/view"));
 
 		postParams.add(new BasicNameValuePair("code", autorize_code));
 
